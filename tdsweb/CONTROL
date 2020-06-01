@@ -1,0 +1,4 @@
+Source: tdsweb
+Version: 0.9
+Description: Web interface for accessing MSSQL databases
+Build-Depends: tdscpp, wscpp, xlcpp, nlohmann-json

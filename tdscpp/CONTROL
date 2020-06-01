@@ -1,0 +1,8 @@
+Source: tdscpp
+Version: 0.9
+Description: C++ bindings for the TDS protocol
+Default-Features: openssl
+
+Feature: openssl
+Build-Depends: openssl
+Description: OpenSSL support

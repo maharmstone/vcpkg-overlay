@@ -1,0 +1,4 @@
+Source: xlcpp
+Version: 0.9
+Description: C++ library to create Open XML spreadsheets
+Build-Depends: libxml2, libarchive
