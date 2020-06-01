@@ -11,7 +11,7 @@ set(SOURCE_PATH ${CURRENT_BUILDTREES_DIR}/src/tdsweb-0.9)
 vcpkg_download_distfile(ARCHIVE
     URLS "https://github.com/maharmstone/tdsweb/archive/0.9.tar.gz"
     FILENAME "tdsweb-0.9.tar.gz"
-    SHA512 cf9e050752942f1c336ca3b851e66a4a1f2cf8a3650c11b2ccc672a6586e1857af9d9a65179b61efdd84c3526987ce6f70593a0d2f86ce331701386136da9860
+    SHA512 d5e8a8d49dd6dc790d20068a94e482db0b709865ea0c9b672770744759874f92ab86aa784113214b30c9436513d308ffb41b3f5165962923c4bb072059ef03b9
 )
 vcpkg_extract_source_archive(${ARCHIVE})
 

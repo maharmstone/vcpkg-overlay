@@ -11,7 +11,7 @@ set(SOURCE_PATH ${CURRENT_BUILDTREES_DIR}/src/xlcpp-0.9)
 vcpkg_download_distfile(ARCHIVE
     URLS "https://github.com/maharmstone/xlcpp/archive/0.9.tar.gz"
     FILENAME "xlcpp-0.9.tar.gz"
-    SHA512 704b866d1de56928bfcd0166823bf34c7623d72e773eb8c215f200f93c4f972f1ca51ab70cf62056809ec99ed848097fd4cf0c0dfcae227dc3fed8bb8b1e5b4e
+    SHA512 89b6071204fd5127fb57b2cebed216150a9a81bb7d9f5308dfe15ad153cb8e5b75a7080c9667e3d960efb5dec9b16450ccccaecd54326579cea5df9946225a80
 )
 vcpkg_extract_source_archive(${ARCHIVE})
 

@@ -11,7 +11,7 @@ set(SOURCE_PATH ${CURRENT_BUILDTREES_DIR}/src/tdscpp-0.9)
 vcpkg_download_distfile(ARCHIVE
     URLS "https://github.com/maharmstone/tdscpp/archive/0.9.tar.gz"
     FILENAME "tdscpp-0.9.tar.gz"
-    SHA512 e1eb577c8a2d7f5be54ee9d4a3a877a6d04f0ca4638c05fd7be97fdedea919fd704b2949c4ef586ae6f22564431c47b7a448484447c53af3c02ddf6452fcd86e
+    SHA512 bdb4145cea890d92a25b220a10c3d73d893c21afcb1f4adf47d6c6a9f03fe6b9bb41e034327fcb21ee5492cd0095a6e4c793df7263ffc74c6ea12ee235bffeca
 )
 vcpkg_extract_source_archive(${ARCHIVE})
 
