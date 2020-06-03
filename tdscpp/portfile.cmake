@@ -8,12 +8,12 @@
 
 include(vcpkg_common_functions)
 set(SOURCE_PATH ${CURRENT_BUILDTREES_DIR}/src/tdscpp-0.9)
-vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/maharmstone/tdscpp/archive/0.9.tar.gz"
-    FILENAME "tdscpp-0.9.tar.gz"
-    SHA512 bdb4145cea890d92a25b220a10c3d73d893c21afcb1f4adf47d6c6a9f03fe6b9bb41e034327fcb21ee5492cd0095a6e4c793df7263ffc74c6ea12ee235bffeca
+vcpkg_from_github(
+    OUT_SOURCE_PATH ${SOURCE_PATH}
+    REPO maharmstone/tdscpp
+    REF 0.9
+    SHA512 723463fcb0832f4a25d96e98a0921207955a25cd6d584b167f3f8302ab988a80ad69893abe1dbb08af24f7d88d6b8497149cad18a74654163039c549eb4d0d84
 )
-vcpkg_extract_source_archive(${ARCHIVE})
 
 set(BUILD_tdscpp_openssl OFF)
 if("openssl" IN_LIST FEATURES)
