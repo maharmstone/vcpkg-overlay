@@ -7,9 +7,9 @@
 #
 
 include(vcpkg_common_functions)
-set(SOURCE_PATH ${CURRENT_BUILDTREES_DIR}/src/tdscpp-0.9)
+
 vcpkg_from_github(
-    OUT_SOURCE_PATH ${SOURCE_PATH}
+    OUT_SOURCE_PATH SOURCE_PATH
     REPO maharmstone/tdscpp
     REF 0.9
     SHA512 723463fcb0832f4a25d96e98a0921207955a25cd6d584b167f3f8302ab988a80ad69893abe1dbb08af24f7d88d6b8497149cad18a74654163039c549eb4d0d84
