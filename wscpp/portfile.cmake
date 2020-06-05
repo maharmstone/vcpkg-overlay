@@ -12,7 +12,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO maharmstone/wscpp
     REF 0.9
-    SHA512 2cfe796775745538247ae72d70d9d3ffc5ebf39d03384b900d0ba48abc46afdb0417ad6dee8c155b7b375b34f3bb673e1c827e595ea7479e8290ac3e2a63e1ce
+    SHA512 75cf2ef9128acfdda98afedc276b4ab6800226d118b019991864202eca92b721ccdd31c316a122c9dc9e3f231a54ec63fb59fd31c33cba182a5c5a9937c3a751
  )
 
 vcpkg_configure_cmake(
